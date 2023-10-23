@@ -49,7 +49,7 @@ background-color: aqua;
 }
 .item > .show-poppup{
 width:280px;
-height: 220px;
+height: 320px;
 background-color: orange;
 position:fixed;
 top:40%;
@@ -66,6 +66,7 @@ align-items: center;
   position: absolute;
   top:0;
   right: 0;
+  z-index: 2;
 }
 .btn-close-popup > img{
   width: 25px;
@@ -73,6 +74,7 @@ align-items: center;
 }
 .show-poppup > .carousel-container{
   width:90%;
+  height:90%;
   border:solid;
   background-color: red;
   display: flex;
