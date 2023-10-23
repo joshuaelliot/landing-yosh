@@ -57,8 +57,40 @@ right: 50%;
 left: 50%;
 z-index:10;
 transform: translate(-50%, -50%);
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .show-poppup > .btn-close-popup{
+  padding:0;
   position: absolute;
+  top:0;
   right: 0;
+}
+.btn-close-popup > img{
+  width: 25px;
+  height:25px;
+}
+.show-poppup > .carousel-container{
+  width:90%;
+  border:solid;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.carousel img{
+  width: 125px;
+  height:125px;
+}
+.carousel > .btn-prev{
+  position:absolute;
+  top:40%;
+  left:0;
+}
+.carousel > .btn-next{
+  position:absolute;
+  top:40%;
+  right:0;
 }

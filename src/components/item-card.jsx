@@ -2,8 +2,11 @@ import React from "react";
 import { useState } from "react";
 import LogoWasap from "../assets/whatssapp.svg"
 import LogoClosePopup from "../assets/close-popup.svg"
-
+import {Carousel} from "./slider-popup"
 const number = 51910550230;
+
+
+
 export default function ItemCard(props){
 const [popup,setPopup] = useState(false);
     const showPopPup=(e)=>{
@@ -37,7 +40,11 @@ const [popup,setPopup] = useState(false);
                 onClick={closePopup}>
                     <img src={LogoClosePopup} alt="" />
                 </button>
-                <img src="" alt="" />
+                
+                <div className="carousel-container">
+                <Carousel/>
+                </div>
+                
             </div>
         )}
       </div>
