@@ -20,7 +20,7 @@ function App() {
         <h3>BOBO</h3>
         <h3>Mochila estilo coreano</h3>
         <h3>s/80</h3>
-        <button>pidelo aqui <a href="https://faq.whatsapp.com/425247423114725/?helpref=uf_share">🃏</a></button>
+        <button>pidelo aqui <a href="https://wa.me/51910550230">🃏</a></button>
       </div>
      
     </div>
