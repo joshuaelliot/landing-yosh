@@ -4,6 +4,8 @@ body{
   width:100vw;
   height:100vh;
   background-color: blueviolet;
+  position: relative;
+  z-index: 1;
 }
 .container{
   width:100%;
@@ -16,6 +18,7 @@ body{
   row-gap: 10px;
   column-gap: 10px;
  justify-content: center;
+ position:relative;
 }
 .container > .item{
   width:100%;
@@ -23,6 +26,7 @@ body{
 background-color: orangered;
 border: solid 1px white;
 text-align: center;
+z-index: none;
 }
 
 .item > figure{
@@ -39,4 +43,22 @@ text-align: center;
   width:100%;
   height:auto;
 background-color: aqua;
+}
+.btn-wasap a{
+  text-decoration: none;
+}
+.item > .show-poppup{
+width:280px;
+height: 220px;
+background-color: orange;
+position:fixed;
+top:40%;
+right: 50%;
+left: 50%;
+z-index:10;
+transform: translate(-50%, -50%);
+}
+.show-poppup > .btn-close-popup{
+  position: absolute;
+  right: 0;
 }
