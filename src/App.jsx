@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import './App.css'
 
+const number = 51910550230;
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,7 +21,7 @@ function App() {
         <h3>BOBO</h3>
         <h3>Mochila estilo coreano</h3>
         <h3>s/80</h3>
-        <button>pidelo aqui <a href="https://wa.me/51910550230">🃏</a></button>
+        <button>pidelo aqui <a href={`https://wa.me/${number}`}>🃏</a></button>
       </div>
      
     </div>
