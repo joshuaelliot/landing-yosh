@@ -18,7 +18,7 @@ body{
   background-color: transparent;
   display:grid;
   grid-template-columns: repeat(4,1fr);
-  grid-template-columns:repeat(auto-fill,minmax(100px,1fr)); 
+  grid-template-columns:repeat(auto-fill,minmax(125px,1fr)); 
   row-gap: 30px;
   column-gap: 10px;
  justify-items: center;
@@ -29,7 +29,7 @@ body{
   width:100%;
   height:auto;
 background-color: orangered;
-border: solid 1px white;
+
 text-align: center;
 box-shadow: 2px 5px 15px 2px rgba(0,0,0,0.75);
 -webkit-box-shadow: 2px 5px 15px 2px rgba(0,0,0,0.75);
@@ -46,10 +46,25 @@ box-shadow: 2px 5px 15px 2px rgba(0,0,0,0.75);
   height: 100%;
   object-fit: cover;
 }
-.item > .description-article{
+.item > .description-article-container{
   width:100%;
   height:auto;
+  padding:10px 0px;
 background-color: whitesmoke;
+}
+.description-article-container > .data-article{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+height:80px;
+}
+.data-article > .marca-article{
+font-size: 18px;
+}
+.data-article > .description{
+  color:rgb(152, 155, 155);
+  font-size: 16px;
+}
+.price-article{
+  color:rgb(241, 71, 71);
 }
 .btn-wasap{
   padding: 10px;
@@ -61,7 +76,10 @@ background-color: whitesmoke;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration: none;
   background-color: transparent;
-  color:white;
+  color:whitesmoke;
+}
+.logo-wasap{
+margin-left:5px;
 }
 .item > .show-poppup{
 width:280px;
