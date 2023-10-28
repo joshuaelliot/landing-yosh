@@ -31,7 +31,9 @@ body{
 background-color: orangered;
 border: solid 1px white;
 text-align: center;
-
+box-shadow: 2px 5px 15px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 5px 15px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 5px 15px 2px rgba(0,0,0,0.75);
 }
 
 .item > figure{
@@ -47,10 +49,19 @@ text-align: center;
 .item > .description-article{
   width:100%;
   height:auto;
-background-color: aqua;
+background-color: whitesmoke;
+}
+.btn-wasap{
+  padding: 10px;
+  background-color:rgba(0, 255, 21, 0.781) ;
+  border:none;
+  border-radius: 5px;
 }
 .btn-wasap a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration: none;
+  background-color: transparent;
+  color:white;
 }
 .item > .show-poppup{
 width:280px;
