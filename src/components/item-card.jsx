@@ -29,7 +29,7 @@ const [popup,setPopup] = useState(false);
             <h3 className="description">{props.descriptionProduct}</h3>
             <h3 className="price-article">{`s/${props.price}`}</h3>
           </div>
-          <button className='btn-wasap'><a href={`https://wa.me/${number}?text=Hola%20me%20interesa%20este%20producto%20&image=${props.urlProduct}`}>
+          <button className='btn-wasap'><a href={`https://wa.me/${number}?text=Hola%20me%20interesa%20este%20producto%20imagen&image=${"https%3A%2F%2Fmedia-v4.edamama.ph%2Fproducts%2FDSCF1679_1597934034780.jpg"}`}>
             Pidelo aqui   <img className='logo-wasap' src={LogoWasap} alt="" /></a></button>
             
         </div>
