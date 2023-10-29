@@ -1,7 +1,7 @@
 .header-container{
     min-width:300px;
     max-width: 1920px;
-    height:400px;
+    height:380px;
     margin:0 auto ; 
     background-color: rgb(238, 238, 238);
     display: grid;
@@ -13,7 +13,7 @@
     height: 100%;
     background-image:  url("https://cdn.lovcour.com/wp-content/uploads/2023/04/27025259/happy-school-bags.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
    
 }
