@@ -31,7 +31,7 @@ const [popup,setPopup] = useState(false);
           </div>
           <button className='btn-wasap'><a href={`https://wa.me/${number}?text=Hola%20me%20interesa%20este%20producto%20${props.urlProduct}`}>
             Pidelo aqui   <img className='logo-wasap' src={LogoWasap} alt="" /></a></button>
-            <a href="https://wa.me/15551234567?text=I'm%20interested%20in%20your%20car%20for%20sale">
+            <a href="https://wa.me/51910550230?text=I'm%20interested%20in%20your%20car%20for%20sale">
     <meta property="og:title" content="Título de la publicación de Instagram"/>
     <meta property="og:description" content="Descripción de la publicación de Instagram"/>
     <meta property="og:image" content="https://cdn.lovcour.com/wp-content/uploads/2023/10/05182405/173-inch-waterproof-trendy-school-backpack-680x680.jpg"/>
