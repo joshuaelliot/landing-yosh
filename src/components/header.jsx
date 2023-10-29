@@ -9,7 +9,6 @@ export default function Header(){
                 <div className="filter-header">
                 <h1>Mochilas Escolares felices </h1>
                 </div>
-                
             </div>
         </div>
         </>

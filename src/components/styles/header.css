@@ -3,7 +3,7 @@
     max-width: 1920px;
     height:400px;
     margin:0 auto ; 
-    background-color: chocolate;
+    background-color: rgb(238, 238, 238);
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 

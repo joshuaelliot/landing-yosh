@@ -20,16 +20,16 @@ const [popup,setPopup] = useState(false);
         <figure
         onClick={showPopPup}
         >
-          <img src="https://i.pinimg.com/564x/b4/bd/ee/b4bdee855a004c9181847482f5e4547d.jpg" 
-          alt="" />
+          <img src={props.imgUrl} 
+          alt={props.descriptionProduct} />
           </figure>
         <div className='description-article-container'>
           <div className='data-article'>
-            <h3 className="marca-article">BOBO</h3>
-            <h3 className="description">Mochila estilo coreano</h3>
-            <h3 className="price-article">{`s/${precio}`}</h3>
+            <h3 className="marca-article">{props.marcaProduct}</h3>
+            <h3 className="description">{props.descriptionProduct}</h3>
+            <h3 className="price-article">{`s/${props.price}`}</h3>
           </div>
-          <button className='btn-wasap'><a href={`https://wa.me/${number}`}>Pidelo aqui   <img
+          <button className='btn-wasap'><a href={`https://wa.me/${number}?TEXT=oye me gustas `}>Pidelo aqui   <img
             className='logo-wasap' src={LogoWasap} alt="" /></a></button>
         </div>
         {popup && (
