@@ -29,7 +29,7 @@ const [popup,setPopup] = useState(false);
             <h3 className="description">{props.descriptionProduct}</h3>
             <h3 className="price-article">{`s/${props.price}`}</h3>
           </div>
-          <button className='btn-wasap'><a href={`https://wa.me/${number}?text=Hola%20me%20interesa%20este%20producto%20${props.urlProduct}&image=https%3A%2F%2Fencrypted-tbn0.gstatic.com/image?q=tbn:ANd9GcSghR3qa_NMfSbz1TS3yG-B_HZGWT-V0yHwhQ&usqp=CAU`}>
+          <button className='btn-wasap'><a href={`https://wa.me/${number}?text=Hola%20me%20interesa%20este%20producto%20${props.urlProduct}&image=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimage?q=tbn:ANd9GcSghR3qa_NMfSbz1TS3yG-B_HZGWT-V0yHwhQ&usqp=CAU`}>
             Pidelo aqui   <img className='logo-wasap' src={LogoWasap} alt="" /></a></button>
             
         </div>
