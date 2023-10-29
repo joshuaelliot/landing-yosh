@@ -5,7 +5,7 @@ import LogoClosePopup from "../assets/close-popup.svg"
 import {Carousel} from "./slider-popup"
 const number = 51910550230;
 
-let precio = 60;
+let precio = 608966778899;
 
 export default function ItemCard(props){
 const [popup,setPopup] = useState(false);
